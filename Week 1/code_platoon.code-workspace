@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Danozaur"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Danozaur",
+		"wolf.disableHotModeWarning": true
+	}
+}
