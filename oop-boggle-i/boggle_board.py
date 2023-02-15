@@ -48,8 +48,12 @@ class BoggleBoard:
     valid_words = []
     diag1 = f"{s[0]}{s[5]}{s[10]}{s[15]}"
     diag2 = f"{s[3]}{s[6]}{s[9]}{s[12]}"
+    diag3 = diag1[::-1]
+    diag4 = diag2[::-1]
     valid_words.append(diag1)
     valid_words.append(diag2)
+    valid_words.append(diag3)
+    valid_words.append(diag4)
 
     i = 15
     while i >= 0:
@@ -86,5 +90,5 @@ class BoggleBoard:
 newBoard = BoggleBoard()
 newBoard.shake()
 print(newBoard.get_board())
-newBoard.word_combos()
-newBoard.include_word()
+print(newBoard.word_combos())
+print(newBoard.include_word())
