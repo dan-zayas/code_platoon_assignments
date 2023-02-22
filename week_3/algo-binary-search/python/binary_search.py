@@ -3,7 +3,7 @@ import random
 def binary_search(x, arr):
     low = 0
     high = len(arr) -1
-    mid = 0
+
     while low <= high:
 
         mid = (high+low) // 2
@@ -19,7 +19,7 @@ def binary_search(x, arr):
     
     return -1
 
-search_length = 1000
+search_length = 1
 
 values = random.sample(list(range(1,search_length*100)), search_length)
 values.sort() # We now have a sorted list of 1000 unique values between 1 and 10,000
