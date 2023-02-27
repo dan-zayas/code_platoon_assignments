@@ -10,6 +10,12 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
+.dj {
+    float: right;
+    position: relative;
+    top: -250px;
+}
+
 .duckwrapper {
     position: relative;
     width: 500px;
