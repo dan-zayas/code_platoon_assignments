@@ -9,10 +9,12 @@
 </head>
 <body>
     <h1>This duck has dance skills to the <br>Big (O)h Yeah n<sup>1000</sup> power!</h1>
-    <audio controls autoplay>
-        <source src="music.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
+    <div>
+        <iframe src="music.mp3" allow="autoplay" style="display:none" id="music">
+        </iframe> 
+        <iframe src="quack.mp3" allow="autoplay" style="display:none" id="duck">
+        </iframe> 
+    </div>
     <div class="duckwrapper">
         <div class="duckhead">
             <div class="hair"></div>
