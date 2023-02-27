@@ -1,0 +1,108 @@
+body {
+    background-image: url('shimmer-glitter.gif');
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#ff00ea, #ccff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.duckwrapper {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    animation: dance 5s linear 2s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes dance {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:500px; top:0px; transform:rotate(90deg)}
+    50%  {background-color:blue; left:500px; top:500px;transform:rotate(180deg)}
+    75%  {background-color:green; left:0px; top:500px;transform:rotate(-270deg)}
+    100% {background-color:red; left:0px; top:0px;transform:rotate(0deg)}
+}
+
+.duckhead {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    background-color: white;
+    width: 150px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.lefteye {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.righteye {
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.beak {
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 80px solid orangered;
+}
+
+.duckbody {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    background-color: white;
+    width: 300px;
+    height: 225px;
+    border-radius: 50%;
+}
+
+.leftwing {
+    position: absolute;
+    top: -40%;
+    left: 30%;
+    width: 0; 
+    height: 0; 
+    border-top: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-left: 100px solid white;
+}
+
+.rightwing {
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    width: 0; 
+    height: 0; 
+    border-top: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-left: 100px solid white;
+}
+
+.feet {
+    position: absolute;
+    top:70%;
+    left:25%;
+    font-size: 125px;
+    letter-spacing: -80px;
+}
