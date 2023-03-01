@@ -28,13 +28,13 @@ nav {
 }
 
 @keyframes elephant {
-    0%   {left:400px; top:0px;}
-    100% {left:-400px; top:0px;}
+    0%   {left:300px; top:0px;}
+    100% {left:-300px; top:0px;}
   }
 
 .navbar-toggler span {
     font-size: 2rem;
-    animation: elephant 10s linear 10s infinite;
+    animation: elephant 4s linear infinite;
     position: relative;
 }
 
@@ -54,10 +54,6 @@ nav {
     background-color: rgba(255,255,255,0.5);
 }
 
-#top-carousel {
-    margin-bottom: 5px;
-}
-
 #top-carousel img {
     height: 90vh;
     border-radius: 100px;
@@ -65,10 +61,6 @@ nav {
 
 .row>*{
     padding: 0px;
-}
-
-.row {
-    margin-bottom: 5px;
 }
 
 .imageresizer {
